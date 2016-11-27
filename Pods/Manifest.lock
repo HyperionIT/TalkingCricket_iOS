@@ -1,0 +1,53 @@
+PODS:
+  - MBCircularProgressBar (0.3.5)
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - MTBBarcodeScanner (3.1.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TagListView-ObjC (0.1.1)
+
+DEPENDENCIES:
+  - MBCircularProgressBar
+  - MRProgress
+  - MTBBarcodeScanner
+  - SDWebImage (~> 3.8)
+  - TagListView-ObjC
+
+SPEC CHECKSUMS:
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  MTBBarcodeScanner: 6d397077f1a4a886050df8e66584a59a1dc429e7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TagListView-ObjC: 432991e24c5177eb4fa7d721de7084f09f39a0b8
+
+PODFILE CHECKSUM: 0de9182eebbd582df1dd3d94b80889877a82a1b3
+
+COCOAPODS: 1.0.1

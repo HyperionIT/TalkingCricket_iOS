@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6548DABA1DEA065D0078070B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAB91DEA065D0078070B /* main.m */; };
+		6548DABD1DEA065D0078070B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DABC1DEA065D0078070B /* AppDelegate.m */; };
+		6548DAC61DEA065D0078070B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6548DAC41DEA065D0078070B /* Main.storyboard */; };
+		6548DACB1DEA065D0078070B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6548DAC91DEA065D0078070B /* LaunchScreen.storyboard */; };
+		6548DAD31DEA113D0078070B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6548DAD21DEA113D0078070B /* Media.xcassets */; };
+		6548DAD61DEA33E30078070B /* ScannViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAD51DEA33E30078070B /* ScannViewController.m */; };
+		6548DADD1DEA4C930078070B /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DADB1DEA4C930078070B /* ResultsViewController.m */; };
+		6548DADE1DEA4C930078070B /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6548DADC1DEA4C930078070B /* ResultsViewController.xib */; };
+		6548DAE31DEA4E6D0078070B /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAE21DEA4E6D0078070B /* Helper.m */; };
+		6548DAE91DEA77CD0078070B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAE81DEA77CD0078070B /* ProfileViewController.m */; };
+		6548DAEE1DEA8B310078070B /* IngredientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAEC1DEA8B310078070B /* IngredientDetailViewController.m */; };
+		6548DAEF1DEA8B310078070B /* IngredientDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6548DAED1DEA8B310078070B /* IngredientDetailViewController.xib */; };
+		6548DAF71DEAA4930078070B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAF61DEAA4930078070B /* TableViewController.m */; };
+		6548DAFA1DEAA5660078070B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548DAF91DEAA5660078070B /* TableViewCell.m */; };
+		65F9401F1DEAE92C008A7F81 /* appicon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F9401E1DEAE92C008A7F81 /* appicon.xcassets */; };
+		7499CB9364956EE616260136 /* Pods_GreenMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48F20EB67885E9FBF8D2205 /* Pods_GreenMarket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BF0A82C097871FAC1DE36B6 /* Pods-GreenMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenMarket/Pods-GreenMarket.release.xcconfig"; sourceTree = "<group>"; };
+		6548DAB51DEA065D0078070B /* GreenMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6548DAB91DEA065D0078070B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6548DABB1DEA065D0078070B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6548DABC1DEA065D0078070B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6548DAC51DEA065D0078070B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6548DACA1DEA065D0078070B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6548DACC1DEA065D0078070B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6548DAD21DEA113D0078070B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6548DAD41DEA33E30078070B /* ScannViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScannViewController.h; path = ../ScannViewController.h; sourceTree = "<group>"; };
+		6548DAD51DEA33E30078070B /* ScannViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScannViewController.m; path = ../ScannViewController.m; sourceTree = "<group>"; };
+		6548DADA1DEA4C930078070B /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		6548DADB1DEA4C930078070B /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		6548DADC1DEA4C930078070B /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		6548DAE11DEA4E6D0078070B /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		6548DAE21DEA4E6D0078070B /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		6548DAE71DEA77CD0078070B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6548DAE81DEA77CD0078070B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6548DAEB1DEA8B310078070B /* IngredientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientDetailViewController.h; sourceTree = "<group>"; };
+		6548DAEC1DEA8B310078070B /* IngredientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientDetailViewController.m; sourceTree = "<group>"; };
+		6548DAED1DEA8B310078070B /* IngredientDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientDetailViewController.xib; sourceTree = "<group>"; };
+		6548DAF51DEAA4930078070B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		6548DAF61DEAA4930078070B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		6548DAF81DEAA5660078070B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6548DAF91DEAA5660078070B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		65F9401E1DEAE92C008A7F81 /* appicon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = appicon.xcassets; sourceTree = "<group>"; };
+		B48F20EB67885E9FBF8D2205 /* Pods_GreenMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C633D04B528A866B9AF797DE /* Pods-GreenMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenMarket/Pods-GreenMarket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6548DAB21DEA065C0078070B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7499CB9364956EE616260136 /* Pods_GreenMarket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556B09890E61356DDD5A25F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C633D04B528A866B9AF797DE /* Pods-GreenMarket.debug.xcconfig */,
+				5BF0A82C097871FAC1DE36B6 /* Pods-GreenMarket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6548DAAC1DEA065C0078070B = {
+			isa = PBXGroup;
+			children = (
+				6548DAB71DEA065D0078070B /* GreenMarket */,
+				6548DAB61DEA065D0078070B /* Products */,
+				556B09890E61356DDD5A25F0 /* Pods */,
+				F23614F8D81E12D14083295E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6548DAB61DEA065D0078070B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6548DAB51DEA065D0078070B /* GreenMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6548DAB71DEA065D0078070B /* GreenMarket */ = {
+			isa = PBXGroup;
+			children = (
+				6548DABB1DEA065D0078070B /* AppDelegate.h */,
+				6548DABC1DEA065D0078070B /* AppDelegate.m */,
+				6548DAF41DEAA0E50078070B /* ListViewController */,
+				6548DAEA1DEA77D30078070B /* Profile */,
+				6548DAE01DEA4CB00078070B /* Scann */,
+				6548DADF1DEA4CA50078070B /* Results */,
+				6548DAF01DEA8B360078070B /* IngredientDetail */,
+				6548DAC41DEA065D0078070B /* Main.storyboard */,
+				65F9401E1DEAE92C008A7F81 /* appicon.xcassets */,
+				6548DAD21DEA113D0078070B /* Media.xcassets */,
+				6548DAC91DEA065D0078070B /* LaunchScreen.storyboard */,
+				6548DACC1DEA065D0078070B /* Info.plist */,
+				6548DAB81DEA065D0078070B /* Supporting Files */,
+				6548DAE11DEA4E6D0078070B /* Helper.h */,
+				6548DAE21DEA4E6D0078070B /* Helper.m */,
+			);
+			path = GreenMarket;
+			sourceTree = "<group>";
+		};
+		6548DAB81DEA065D0078070B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6548DAB91DEA065D0078070B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6548DADF1DEA4CA50078070B /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				6548DADA1DEA4C930078070B /* ResultsViewController.h */,
+				6548DADB1DEA4C930078070B /* ResultsViewController.m */,
+				6548DADC1DEA4C930078070B /* ResultsViewController.xib */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		6548DAE01DEA4CB00078070B /* Scann */ = {
+			isa = PBXGroup;
+			children = (
+				6548DAD41DEA33E30078070B /* ScannViewController.h */,
+				6548DAD51DEA33E30078070B /* ScannViewController.m */,
+			);
+			name = Scann;
+			sourceTree = "<group>";
+		};
+		6548DAEA1DEA77D30078070B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6548DAE71DEA77CD0078070B /* ProfileViewController.h */,
+				6548DAE81DEA77CD0078070B /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		6548DAF01DEA8B360078070B /* IngredientDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6548DAEB1DEA8B310078070B /* IngredientDetailViewController.h */,
+				6548DAEC1DEA8B310078070B /* IngredientDetailViewController.m */,
+				6548DAED1DEA8B310078070B /* IngredientDetailViewController.xib */,
+			);
+			name = IngredientDetail;
+			sourceTree = "<group>";
+		};
+		6548DAF41DEAA0E50078070B /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6548DAF51DEAA4930078070B /* TableViewController.h */,
+				6548DAF61DEAA4930078070B /* TableViewController.m */,
+				6548DAF81DEAA5660078070B /* TableViewCell.h */,
+				6548DAF91DEAA5660078070B /* TableViewCell.m */,
+			);
+			name = ListViewController;
+			sourceTree = "<group>";
+		};
+		F23614F8D81E12D14083295E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48F20EB67885E9FBF8D2205 /* Pods_GreenMarket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6548DAB41DEA065C0078070B /* GreenMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6548DACF1DEA065D0078070B /* Build configuration list for PBXNativeTarget "GreenMarket" */;
+			buildPhases = (
+				CC64F3460A9F7DCB3CCC8C0B /* [CP] Check Pods Manifest.lock */,
+				6548DAB11DEA065C0078070B /* Sources */,
+				6548DAB21DEA065C0078070B /* Frameworks */,
+				6548DAB31DEA065C0078070B /* Resources */,
+				99686BA10C51CB46E2866B78 /* [CP] Embed Pods Frameworks */,
+				46E48CEA78FC2FB53073C05C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenMarket;
+			productName = GreenMarket;
+			productReference = 6548DAB51DEA065D0078070B /* GreenMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6548DAAD1DEA065C0078070B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Hyperion;
+				TargetAttributes = {
+					6548DAB41DEA065C0078070B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29883UF8KW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6548DAB01DEA065C0078070B /* Build configuration list for PBXProject "GreenMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6548DAAC1DEA065C0078070B;
+			productRefGroup = 6548DAB61DEA065D0078070B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6548DAB41DEA065C0078070B /* GreenMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6548DAB31DEA065C0078070B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6548DACB1DEA065D0078070B /* LaunchScreen.storyboard in Resources */,
+				6548DAEF1DEA8B310078070B /* IngredientDetailViewController.xib in Resources */,
+				65F9401F1DEAE92C008A7F81 /* appicon.xcassets in Resources */,
+				6548DAD31DEA113D0078070B /* Media.xcassets in Resources */,
+				6548DAC61DEA065D0078070B /* Main.storyboard in Resources */,
+				6548DADE1DEA4C930078070B /* ResultsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46E48CEA78FC2FB53073C05C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenMarket/Pods-GreenMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99686BA10C51CB46E2866B78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenMarket/Pods-GreenMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC64F3460A9F7DCB3CCC8C0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6548DAB11DEA065C0078070B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6548DAEE1DEA8B310078070B /* IngredientDetailViewController.m in Sources */,
+				6548DABD1DEA065D0078070B /* AppDelegate.m in Sources */,
+				6548DAD61DEA33E30078070B /* ScannViewController.m in Sources */,
+				6548DABA1DEA065D0078070B /* main.m in Sources */,
+				6548DAFA1DEAA5660078070B /* TableViewCell.m in Sources */,
+				6548DADD1DEA4C930078070B /* ResultsViewController.m in Sources */,
+				6548DAE91DEA77CD0078070B /* ProfileViewController.m in Sources */,
+				6548DAE31DEA4E6D0078070B /* Helper.m in Sources */,
+				6548DAF71DEAA4930078070B /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6548DAC41DEA065D0078070B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6548DAC51DEA065D0078070B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6548DAC91DEA065D0078070B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6548DACA1DEA065D0078070B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6548DACD1DEA065D0078070B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6548DACE1DEA065D0078070B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6548DAD01DEA065D0078070B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C633D04B528A866B9AF797DE /* Pods-GreenMarket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29883UF8KW;
+				INFOPLIST_FILE = GreenMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.hyperion.GreenMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6548DAD11DEA065D0078070B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF0A82C097871FAC1DE36B6 /* Pods-GreenMarket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29883UF8KW;
+				INFOPLIST_FILE = GreenMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.hyperion.GreenMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6548DAB01DEA065C0078070B /* Build configuration list for PBXProject "GreenMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6548DACD1DEA065D0078070B /* Debug */,
+				6548DACE1DEA065D0078070B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6548DACF1DEA065D0078070B /* Build configuration list for PBXNativeTarget "GreenMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6548DAD01DEA065D0078070B /* Debug */,
+				6548DAD11DEA065D0078070B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6548DAAD1DEA065C0078070B /* Project object */;
+}
